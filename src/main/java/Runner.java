@@ -56,6 +56,7 @@ public class Runner {
 			for ( Person p : people ) {
 				em.persist( p );
 			}
+
 			em.flush();
 			em.clear();
 			em.close();

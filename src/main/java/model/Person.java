@@ -17,7 +17,7 @@ public class Person {
 	@OneToOne
 	private Person spouse;
 
-	@ManyToMany
+	@OneToMany
 	private List<Person> children;
 
 	public Person() {
